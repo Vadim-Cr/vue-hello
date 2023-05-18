@@ -10,9 +10,9 @@ createApp({
 }).mount("#title");
 
 createApp({
-    data () {
-        return {
-            image: '<img src="https://unsplash.it/600/300?image=171" alt="image">'
-        };
-    }
+  data() {
+    return {
+      image: 'https://unsplash.it/600/300?image=171'
+    };
+  }
 }).mount("#my_image");
